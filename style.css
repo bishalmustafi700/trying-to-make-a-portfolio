@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+/* font */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* navbar */  
+
+.nav-br{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left:12% ;
+  margin-right:12%;
+}
+.Mary-text-decoration{
+  font-size: 45px;
+  font-weight: 900;
+}
+.Mary-text-decoration span{
+  color: #FD6E0A;
+}
+.nav-elements{
+  gap: 25%;
+}
+.nav-elements a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #474747;
+  margin-left: 35px;
+}
+.header-section{
+  background-color: #FFF8F3;
+  height: 600px; 
+  width: 100%;
+  padding-top: 30px;
+}
+
+/* banner-body-design */
+
+.banner-elements, h3, h1, p{
+  color: #373333;
+  margin-bottom: 15px;
+}
+.banner-elements, h3{
+  font-size: 45px;
+}
+.banner-elements h1{
+  font-size: 65px;
+}
+.banner-elements p{
+  font-size: 18px;
+}
+/* .banner-elements {
+  width: 78%;
+} */
+.banner-designs{
+  display: flex;
+  margin-left: 12%;
+  /* margin-right: 12%; */
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.mary-img, img{
+  width: 82%;
+}
+
+
+
+
+/* Button */
+.btn-decoration{
+  color: #FFF8F3;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #FD6E0A;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: none;
+}
+
